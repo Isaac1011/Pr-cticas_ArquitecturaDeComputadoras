@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  mux00  -multisrs  C:\Users\Isaac\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\01-projectDiamont-PrimerParcial\02-mux00\mux0\synwork\mux00_mux0_comp.srs  -osyn  C:\Users\Isaac\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\01-projectDiamont-PrimerParcial\02-mux00\mux0\synwork\mux00_mux0_mult.srs  -log  C:\Users\Isaac\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\01-projectDiamont-PrimerParcial\02-mux00\mux0\synlog\mux00_mux0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top mux00 -multisrs ..\synwork\mux00_mux0_comp.srs -osyn ..\synwork\mux00_mux0_mult.srs -log ..\synlog\mux00_mux0_multi_srs_gen.srr
+rc:0 success:1 runtime:2
+file:..\synwork\mux00_mux0_comp.srs|io:i|time:1662756886|size:2640|exec:0|csum:45DBC862D17E62B6D1EEDCEE113C6462
+file:..\synwork\mux00_mux0_mult.srs|io:o|time:1662756896|size:2325|exec:0|csum:
+file:..\synlog\mux00_mux0_multi_srs_gen.srr|io:o|time:1662756896|size:1027|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

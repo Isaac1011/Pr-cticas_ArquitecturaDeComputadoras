@@ -1,0 +1,44 @@
+#Start recording tcl command: 11/3/2022 20:51:25
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00; Project name: adder4bitLib00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program set -cable USB
+pgr_program set -port EzUSB-0
+pgr_program run
+pgr_program set -cable 
+pgr_program set -cable USB2
+pgr_program set -port FTUSB-0
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_program set -cable USB
+pgr_program set -port EzUSB-0
+pgr_program run
+pgr_program set -cable USB2
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+prj_run Export -impl adder4bitLib0 -task Jedecgen
+prj_run Export -impl adder4bitLib0 -task Jedecgen
+prj_run Export -impl adder4bitLib0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+prj_run Export -impl adder4bitLib0 -task Jedecgen
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+pgr_project close
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+prj_run Export -impl adder4bitLib0 -task Jedecgen
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+pgr_project close
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 11/3/2022 22:15:50

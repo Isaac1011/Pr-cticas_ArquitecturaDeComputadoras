@@ -1,0 +1,2 @@
+@E: CD395 :"C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\SegundoParcial\Practicas\01-word00\coder00.vhdl":15:15:15:22|Constant width 6 does not match context width 7
+

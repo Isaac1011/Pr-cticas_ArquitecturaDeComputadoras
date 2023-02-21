@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.12/cae_library/synthesis/vhdl/machxo2.vhd" "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib00.vhdl" 

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  oscint00  -multisrs  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\05-adder4bitLIB00\impl1\synwork\oscint00_impl1_comp.srs  -osyn  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\05-adder4bitLIB00\impl1\synwork\oscint00_impl1_mult.srs  -log  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\05-adder4bitLIB00\impl1\synlog\oscint00_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top oscint00 -multisrs ..\synwork\oscint00_impl1_comp.srs -osyn ..\synwork\oscint00_impl1_mult.srs -log ..\synlog\oscint00_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\oscint00_impl1_comp.srs|io:i|time:1668015684|size:2480|exec:0|csum:BB7CC6763BE41CA4FCDA6971B75103C7
+file:..\synwork\oscint00_impl1_mult.srs|io:o|time:1668015685|size:2177|exec:0|csum:
+file:..\synlog\oscint00_impl1_multi_srs_gen.srr|io:o|time:1668015685|size:1035|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

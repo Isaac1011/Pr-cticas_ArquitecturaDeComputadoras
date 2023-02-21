@@ -1,0 +1,17 @@
+if {![file exists "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/andTB.mpf"]} { 
+	project new "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB" andTB
+	project addfile "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/and00.vhdl"
+	project addfile "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/andTB00.vhdl"
+	vlib  work
+	vdel -lib work -all 
+	vlib work
+	vcom -work work "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/and00.vhdl"
+	vcom -work work "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/andTB00.vhdl"
+} else {
+	project open "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/andTB"
+	project compileoutofdate
+}
+vsim -L work -L pmi_work -L ovi_machxo2  andTB00
+view wave
+add wave /*
+run 1000ns

@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/3/2022 22:16:00
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00; Project name: adder4bitLib00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib00.ldf"
+prj_run Export -impl adder4bitLib0 -task Jedecgen
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/adder4bitLib0/adder4bitLib0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 11/3/2022 23:00:59

@@ -1,0 +1,11 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\10-shiftRL00\shiftRL00.vhdl":7:7:7:15|Top entity is set to shiftRL00.
+@N: CD630 :"C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\10-shiftRL00\shiftRL00.vhdl":7:7:7:15|Synthesizing work.shiftrl00.shiftrl0.
+@N: CD630 :"C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\10-shiftRL00\shiftRL.vhdl":7:7:7:13|Synthesizing work.shiftrl.shift.
+@N: CD630 :"C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\09-os00-vhdl\osc00.vhdl":7:7:7:11|Synthesizing work.osc00.osc0.
+@N: CD630 :"C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\09-os00-vhdl\div00.vhdl":8:7:8:11|Synthesizing work.div00.div0.
+@N: CD630 :"C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\09-os00-vhdl\oscint00.vhdl":6:7:6:14|Synthesizing work.oscint00.oscint0.
+@N: CD630 :"C:\lscc\diamond\3.12\cae_library\synthesis\vhdl\machxo2.vhd":2291:10:2291:13|Synthesizing work.osch.syn_black_box.
+@N|Running in 64-bit mode
+

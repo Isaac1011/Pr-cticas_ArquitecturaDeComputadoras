@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/9/2022 13:56:02
+#Project Location: C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00; Project name: mux00
+prj_project new -name "mux00" -impl "mux0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 9/9/2022 13:59:28

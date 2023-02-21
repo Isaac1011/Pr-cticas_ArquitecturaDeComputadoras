@@ -1,0 +1,8 @@
+#Start recording tcl command: 9/9/2022 16:38:23
+#Project Location: C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00; Project name: mux00
+prj_project open "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux00.ldf"
+pgr_project open "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux0/mux0.xcf"
+pgr_program run
+pgr_project close
+prj_project close
+#Stop recording: 9/9/2022 16:40:48

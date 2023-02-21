@@ -1,0 +1,23 @@
+#Start recording tcl command: 9/9/2022 14:11:56
+#Project Location: C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00; Project name: mux00
+prj_project open "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux00.ldf"
+prj_run Export -impl mux0 -task Jedecgen
+prj_run Export -impl mux0 -task Jedecgen
+pgr_project save "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux0/mux0.xcf"
+prj_src add -exclude "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux0/mux0.xcf"
+prj_src enable "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux0/mux0.xcf"
+pgr_program run
+pgr_project save "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux0/mux0.xcf"
+pgr_project close
+pgr_project open "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux0/mux0.xcf"
+pgr_program run
+pgr_program set -cable 
+pgr_program run
+pgr_program set -cable 
+pgr_program set -port FTUSB-1
+pgr_program run
+pgr_project save "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/02-mux00/mux0/mux0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 9/9/2022 16:32:34

@@ -1,0 +1,15 @@
+#Start recording tcl command: 11/9/2022 11:15:27
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00; Project name: oscint00
+prj_project new -name "oscint00" -impl "impl1" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/oscint00.vhdl"
+prj_run Export -impl impl1 -task Jedecgen
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/impl1/impl1.xcf"
+prj_src add -exclude "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/impl1/impl1.xcf"
+prj_src enable "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/05-adder4bitLIB00/impl1/impl1.xcf"
+prj_run Export -impl impl1 -task Jedecgen
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 11/9/2022 11:47:37

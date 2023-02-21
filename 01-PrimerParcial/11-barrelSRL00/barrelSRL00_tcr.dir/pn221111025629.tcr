@@ -1,0 +1,21 @@
+#Start recording tcl command: 11/11/2022 02:13:20
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00; Project name: barrelSRL00
+prj_project new -name "barrelSRL00" -impl "barrelSRL0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/09-os00-vhdl/div00.vhdl" "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/09-os00-vhdl/osc00.vhdl" "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/09-os00-vhdl/oscint00.vhdl" "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/09-os00-vhdl/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrel00.vhdl"
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/packagebarrelSRL00.vhdl"
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL00.vhdl"
+prj_run Export -impl barrelSRL0 -task Jedecgen
+prj_run Export -impl barrelSRL0 -task Jedecgen
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+prj_src add -exclude "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+prj_src enable "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+prj_run Export -impl barrelSRL0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 11/11/2022 02:56:29

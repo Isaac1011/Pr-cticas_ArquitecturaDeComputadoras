@@ -1,0 +1,15 @@
+#Start recording tcl command: 1/6/2023 20:08:18
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+pgr_project close
+pgr_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 1/6/2023 21:52:31

@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  adder4bitLib00  -multisrs  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\05-adder4bitLIB00\adder4bitLib0\synwork\adder4bitLib00_adder4bitLib0_comp.srs  -osyn  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\05-adder4bitLIB00\adder4bitLib0\synwork\adder4bitLib00_adder4bitLib0_mult.srs  -log  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\05-adder4bitLIB00\adder4bitLib0\synlog\adder4bitLib00_adder4bitLib0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top adder4bitLib00 -multisrs ..\synwork\adder4bitLib00_adder4bitLib0_comp.srs -osyn ..\synwork\adder4bitLib00_adder4bitLib0_mult.srs -log ..\synlog\adder4bitLib00_adder4bitLib0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\adder4bitLib00_adder4bitLib0_comp.srs|io:i|time:1667535393|size:2023|exec:0|csum:4B25CCD6F664F6A07B1319BB2518C942
+file:..\synwork\adder4bitLib00_adder4bitLib0_mult.srs|io:o|time:1667535394|size:1683|exec:0|csum:
+file:..\synlog\adder4bitLib00_adder4bitLib0_multi_srs_gen.srr|io:o|time:1667535394|size:1249|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

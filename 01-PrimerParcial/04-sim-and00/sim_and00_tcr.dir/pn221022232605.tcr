@@ -1,0 +1,12 @@
+#Start recording tcl command: 10/22/2022 22:48:46
+#Project Location: C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00; Project name: sim_and00
+prj_project new -name "sim_and00" -impl "sim_and0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/and00.vhdl"
+prj_src add "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB00.vhdl"
+prj_src add "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/andTB.spf"
+prj_src add "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/andTB.spf"
+prj_src add "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/04-sim-and00/andTB/andTB.spf"
+prj_project save
+prj_project close
+#Stop recording: 10/22/2022 23:26:05

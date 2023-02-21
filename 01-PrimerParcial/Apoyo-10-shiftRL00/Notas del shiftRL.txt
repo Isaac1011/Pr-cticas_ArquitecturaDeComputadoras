@@ -1,0 +1,12 @@
+En el shiftRL00
+
+
+2do dip: 6 ultimos bits son del divisor de frecuencia
+3er dip: 8 bits de cargar el dato
+4to dip: ultimos 3 bits son para los RL
+	
+	en = 001 = cargar el dato
+	en = 010 = corrimiento izqueirda
+	en = 011 = corrimiento derecha
+	en = 100 = corrimiento circular izquierda
+	en = 101 = corrimiento circular derecha

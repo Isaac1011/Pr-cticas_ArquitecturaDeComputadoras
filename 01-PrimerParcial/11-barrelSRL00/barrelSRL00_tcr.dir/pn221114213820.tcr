@@ -1,0 +1,11 @@
+#Start recording tcl command: 11/14/2022 21:13:07
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00; Project name: barrelSRL00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL00.ldf"
+pgr_project close
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 11/14/2022 21:38:20

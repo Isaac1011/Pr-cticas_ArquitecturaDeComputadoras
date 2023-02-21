@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe  -link  -top  osc00  -multisrs  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\09-os00\os0\synwork\os00_os0_comp.srs  -osyn  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\09-os00\os0\synwork\os00_os0_mult.srs  -log  C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\09-os00\os0\synlog\os00_os0_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe -link -top osc00 -multisrs ..\synwork\os00_os0_comp.srs -osyn ..\synwork\os00_os0_mult.srs -log ..\synlog\os00_os0_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\os00_os0_comp.srs|io:i|time:1668148690|size:5883|exec:0|csum:A12938DC7E97896BAB04E683133337BA
+file:..\synwork\os00_os0_mult.srs|io:o|time:1668148691|size:2399|exec:0|csum:
+file:..\synlog\os00_os0_multi_srs_gen.srr|io:o|time:1668148691|size:1199|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\lscc\diamond\3.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1603984722|size:8875008|exec:1|csum:43373AFF0ED6BCEB26CB4B4947B972DD

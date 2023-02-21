@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiamondModule name="rom_EBR_00" module="rom_EBR_00" VendorName="Lattice Semiconductor Corporation" generator="IPexpress" date="2023 01 14 01:13:16.548" version="5.4" type="Module" synthesis="lse" source_format="VHDL">
+  <Package>
+		<File name="" type="" modified="2023 01 14 01:13:16.405"/>
+		<File name="c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/bindata00.mem.txt" type="mem" modified="2023 01 14 01:11:46.106"/>
+		<File name="rom_EBR_00.lpc" type="lpc" modified="2023 01 14 01:13:14.451"/>
+		<File name="rom_EBR_00.vhd" type="top_level_vhdl" modified="2023 01 14 01:13:14.541"/>
+		<File name="rom_EBR_00_tmpl.vhd" type="template_vhdl" modified="2023 01 14 01:13:14.541"/>
+		<File name="tb_rom_EBR_00_tmpl.vhd" type="testbench_vhdl" modified="2023 01 14 01:13:14.546"/>
+  </Package>
+</DiamondModule>

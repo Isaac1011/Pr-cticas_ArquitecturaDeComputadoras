@@ -1,0 +1,402 @@
+<HTML>
+<HEAD><TITLE>Lattice Synthesis Timing Report</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="Map_Twr"></A><B><U><big>Lattice Synthesis Timing Report</big></U></B>
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Sat Jan 14 01:13:28 2023
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2020 Lattice Semiconductor Corporation,  All rights reserved.
+
+<A name="mtw1_ri"></A><B><U><big>Report Information</big></U></B>
+------------------
+Design:     ramEBR00
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk1 [get_nets \RAEBR00/sclk]
+            1073 items scored, 798 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 6.102ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \RAEBR00/OS01/sdiv_124__i19  (from \RAEBR00/sclk +)
+   Destination:    FD1P3IX    CD             \RAEBR00/OS01/sdiv_124__i17  (to \RAEBR00/sclk +)
+
+   Delay:                  10.956ns  (32.1% logic, 67.9% route), 9 logic levels.
+
+ Constraint Details:
+
+     10.956ns data_path \RAEBR00/OS01/sdiv_124__i19 to \RAEBR00/OS01/sdiv_124__i17 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 6.102ns
+
+ Path Details: \RAEBR00/OS01/sdiv_124__i19 to \RAEBR00/OS01/sdiv_124__i17
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \RAEBR00/OS01/sdiv_124__i19 (from \RAEBR00/sclk)
+Route         8   e 1.335                                  \RAEBR00/OS01/sdiv[19]
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/i1_2_lut_rep_12
+Route         2   e 0.954                                  \RAEBR00/OS01/n1260
+LUT4        ---     0.448              B to Z              \RAEBR00/OS01/i1_3_lut_rep_8_4_lut
+Route         2   e 0.954                                  \RAEBR00/OS01/n1256
+LUT4        ---     0.448              D to Z              \RAEBR00/OS01/i3_4_lut_adj_1
+Route         3   e 1.051                                  \RAEBR00/OS01/n6
+LUT4        ---     0.448              C to Z              \RAEBR00/OS01/n1267_bdd_2_lut_3_lut
+Route         1   e 0.020                                  \RAEBR00/OS01/n1268
+MUXL5       ---     0.212           BLUT to Z              \RAEBR00/OS01/i820
+Route         1   e 0.788                                  \RAEBR00/OS01/n1269
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/pwr_bdd_2_lut_830
+Route         1   e 0.020                                  \RAEBR00/OS01/n1270
+MUXL5       ---     0.212           ALUT to Z              \RAEBR00/OS01/i824
+Route         1   e 0.788                                  \RAEBR00/OS01/n1272
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/n39_bdd_2_lut
+Route        22   e 1.531                                  \RAEBR00/OS01/n755
+                  --------
+                   10.956  (32.1% logic, 67.9% route), 9 logic levels.
+
+
+Error:  The following path violates requirements by 6.102ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \RAEBR00/OS01/sdiv_124__i19  (from \RAEBR00/sclk +)
+   Destination:    FD1P3IX    CD             \RAEBR00/OS01/sdiv_124__i18  (to \RAEBR00/sclk +)
+
+   Delay:                  10.956ns  (32.1% logic, 67.9% route), 9 logic levels.
+
+ Constraint Details:
+
+     10.956ns data_path \RAEBR00/OS01/sdiv_124__i19 to \RAEBR00/OS01/sdiv_124__i18 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 6.102ns
+
+ Path Details: \RAEBR00/OS01/sdiv_124__i19 to \RAEBR00/OS01/sdiv_124__i18
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \RAEBR00/OS01/sdiv_124__i19 (from \RAEBR00/sclk)
+Route         8   e 1.335                                  \RAEBR00/OS01/sdiv[19]
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/i1_2_lut_rep_12
+Route         2   e 0.954                                  \RAEBR00/OS01/n1260
+LUT4        ---     0.448              B to Z              \RAEBR00/OS01/i1_3_lut_rep_8_4_lut
+Route         2   e 0.954                                  \RAEBR00/OS01/n1256
+LUT4        ---     0.448              D to Z              \RAEBR00/OS01/i3_4_lut_adj_1
+Route         3   e 1.051                                  \RAEBR00/OS01/n6
+LUT4        ---     0.448              C to Z              \RAEBR00/OS01/n1267_bdd_2_lut_3_lut
+Route         1   e 0.020                                  \RAEBR00/OS01/n1268
+MUXL5       ---     0.212           BLUT to Z              \RAEBR00/OS01/i820
+Route         1   e 0.788                                  \RAEBR00/OS01/n1269
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/pwr_bdd_2_lut_830
+Route         1   e 0.020                                  \RAEBR00/OS01/n1270
+MUXL5       ---     0.212           ALUT to Z              \RAEBR00/OS01/i824
+Route         1   e 0.788                                  \RAEBR00/OS01/n1272
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/n39_bdd_2_lut
+Route        22   e 1.531                                  \RAEBR00/OS01/n755
+                  --------
+                   10.956  (32.1% logic, 67.9% route), 9 logic levels.
+
+
+Error:  The following path violates requirements by 6.102ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \RAEBR00/OS01/sdiv_124__i19  (from \RAEBR00/sclk +)
+   Destination:    FD1P3IX    CD             \RAEBR00/OS01/sdiv_124__i5  (to \RAEBR00/sclk +)
+
+   Delay:                  10.956ns  (32.1% logic, 67.9% route), 9 logic levels.
+
+ Constraint Details:
+
+     10.956ns data_path \RAEBR00/OS01/sdiv_124__i19 to \RAEBR00/OS01/sdiv_124__i5 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 6.102ns
+
+ Path Details: \RAEBR00/OS01/sdiv_124__i19 to \RAEBR00/OS01/sdiv_124__i5
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \RAEBR00/OS01/sdiv_124__i19 (from \RAEBR00/sclk)
+Route         8   e 1.335                                  \RAEBR00/OS01/sdiv[19]
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/i1_2_lut_rep_12
+Route         2   e 0.954                                  \RAEBR00/OS01/n1260
+LUT4        ---     0.448              B to Z              \RAEBR00/OS01/i1_3_lut_rep_8_4_lut
+Route         2   e 0.954                                  \RAEBR00/OS01/n1256
+LUT4        ---     0.448              D to Z              \RAEBR00/OS01/i3_4_lut_adj_1
+Route         3   e 1.051                                  \RAEBR00/OS01/n6
+LUT4        ---     0.448              C to Z              \RAEBR00/OS01/n1267_bdd_2_lut_3_lut
+Route         1   e 0.020                                  \RAEBR00/OS01/n1268
+MUXL5       ---     0.212           BLUT to Z              \RAEBR00/OS01/i820
+Route         1   e 0.788                                  \RAEBR00/OS01/n1269
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/pwr_bdd_2_lut_830
+Route         1   e 0.020                                  \RAEBR00/OS01/n1270
+MUXL5       ---     0.212           ALUT to Z              \RAEBR00/OS01/i824
+Route         1   e 0.788                                  \RAEBR00/OS01/n1272
+LUT4        ---     0.448              A to Z              \RAEBR00/OS01/n39_bdd_2_lut
+Route        22   e 1.531                                  \RAEBR00/OS01/n755
+                  --------
+                   10.956  (32.1% logic, 67.9% route), 9 logic levels.
+
+Warning: 11.102 ns is the maximum delay for this constraint.
+
+
+
+================================================================================
+Constraint: create_clock -period 5.000000 -name clk0 [get_nets clk0_c]
+            77 items scored, 27 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Error:  The following path violates requirements by 1.717ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \RAEBR01/outcontrd_i2  (from clk0_c +)
+   Destination:    FD1P3IX    D              \RAEBR01/outcontrd_i5  (to clk0_c +)
+
+   Delay:                   6.571ns  (43.8% logic, 56.2% route), 7 logic levels.
+
+ Constraint Details:
+
+      6.571ns data_path \RAEBR01/outcontrd_i2 to \RAEBR01/outcontrd_i5 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 1.717ns
+
+ Path Details: \RAEBR01/outcontrd_i2 to \RAEBR01/outcontrd_i5
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \RAEBR01/outcontrd_i2 (from clk0_c)
+Route         6   e 1.266                                  sAddress[2]
+LUT4        ---     0.448              A to Z              \RAEBR01/i1_2_lut
+Route         1   e 0.788                                  \RAEBR01/n6
+LUT4        ---     0.448              D to Z              \RAEBR01/i4_4_lut
+Route         1   e 0.788                                  \RAEBR01/n971
+A1_TO_FCO   ---     0.752           B[2] to COUT           \RAEBR01/add_4_1
+Route         1   e 0.020                                  \RAEBR01/n957
+FCI_TO_FCO  ---     0.143            CIN to COUT           \RAEBR01/add_4_3
+Route         1   e 0.020                                  \RAEBR01/n958
+FCI_TO_FCO  ---     0.143            CIN to COUT           \RAEBR01/add_4_5
+Route         1   e 0.020                                  \RAEBR01/n959
+FCI_TO_F    ---     0.544            CIN to S[2]           \RAEBR01/add_4_7
+Route         1   e 0.788                                  \RAEBR01/outcontrd_5__N_270[5]
+                  --------
+                    6.571  (43.8% logic, 56.2% route), 7 logic levels.
+
+
+Error:  The following path violates requirements by 1.717ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \RAEBR01/outcontrd_i3  (from clk0_c +)
+   Destination:    FD1P3IX    D              \RAEBR01/outcontrd_i5  (to clk0_c +)
+
+   Delay:                   6.571ns  (43.8% logic, 56.2% route), 7 logic levels.
+
+ Constraint Details:
+
+      6.571ns data_path \RAEBR01/outcontrd_i3 to \RAEBR01/outcontrd_i5 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 1.717ns
+
+ Path Details: \RAEBR01/outcontrd_i3 to \RAEBR01/outcontrd_i5
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \RAEBR01/outcontrd_i3 (from clk0_c)
+Route         6   e 1.266                                  sAddress[3]
+LUT4        ---     0.448              B to Z              \RAEBR01/i1_2_lut
+Route         1   e 0.788                                  \RAEBR01/n6
+LUT4        ---     0.448              D to Z              \RAEBR01/i4_4_lut
+Route         1   e 0.788                                  \RAEBR01/n971
+A1_TO_FCO   ---     0.752           B[2] to COUT           \RAEBR01/add_4_1
+Route         1   e 0.020                                  \RAEBR01/n957
+FCI_TO_FCO  ---     0.143            CIN to COUT           \RAEBR01/add_4_3
+Route         1   e 0.020                                  \RAEBR01/n958
+FCI_TO_FCO  ---     0.143            CIN to COUT           \RAEBR01/add_4_5
+Route         1   e 0.020                                  \RAEBR01/n959
+FCI_TO_F    ---     0.544            CIN to S[2]           \RAEBR01/add_4_7
+Route         1   e 0.788                                  \RAEBR01/outcontrd_5__N_270[5]
+                  --------
+                    6.571  (43.8% logic, 56.2% route), 7 logic levels.
+
+
+Error:  The following path violates requirements by 1.554ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         FD1P3IX    CK             \RAEBR01/outcontrd_i2  (from clk0_c +)
+   Destination:    FD1P3IX    D              \RAEBR01/outcontrd_i4  (to clk0_c +)
+
+   Delay:                   6.408ns  (42.7% logic, 57.3% route), 6 logic levels.
+
+ Constraint Details:
+
+      6.408ns data_path \RAEBR01/outcontrd_i2 to \RAEBR01/outcontrd_i4 violates
+      5.000ns delay constraint less
+      0.146ns L_S requirement (totaling 4.854ns) by 1.554ns
+
+ Path Details: \RAEBR01/outcontrd_i2 to \RAEBR01/outcontrd_i4
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.403             CK to Q              \RAEBR01/outcontrd_i2 (from clk0_c)
+Route         6   e 1.266                                  sAddress[2]
+LUT4        ---     0.448              A to Z              \RAEBR01/i1_2_lut
+Route         1   e 0.788                                  \RAEBR01/n6
+LUT4        ---     0.448              D to Z              \RAEBR01/i4_4_lut
+Route         1   e 0.788                                  \RAEBR01/n971
+A1_TO_FCO   ---     0.752           B[2] to COUT           \RAEBR01/add_4_1
+Route         1   e 0.020                                  \RAEBR01/n957
+FCI_TO_FCO  ---     0.143            CIN to COUT           \RAEBR01/add_4_3
+Route         1   e 0.020                                  \RAEBR01/n958
+FCI_TO_F    ---     0.544            CIN to S[2]           \RAEBR01/add_4_5
+Route         1   e 0.788                                  \RAEBR01/outcontrd_5__N_270[4]
+                  --------
+                    6.408  (42.7% logic, 57.3% route), 6 logic levels.
+
+Warning: 6.717 ns is the maximum delay for this constraint.
+
+
+<A name="mtw1_rs"></A><B><U><big>Timing Report Summary</big></U></B>
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk1 [get_nets \RAEBR00/sclk]           |     5.000 ns|    11.102 ns|     9 *
+                                        |             |             |
+create_clock -period 5.000000 -name     |             |             |
+clk0 [get_nets clk0_c]                  |     5.000 ns|     6.717 ns|     7 *
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+2 constraints not met.
+
+--------------------------------------------------------------------------------
+Critical Nets                           |   Loads|  Errors| % of total
+--------------------------------------------------------------------------------
+\RAEBR00/OS01/n755                      |      22|     748|     90.67%
+                                        |        |        |
+\RAEBR00/OS01/n1272                     |       1|     748|     90.67%
+                                        |        |        |
+\RAEBR00/OS01/n1269                     |       1|     572|     69.33%
+                                        |        |        |
+\RAEBR00/OS01/n1270                     |       1|     572|     69.33%
+                                        |        |        |
+\RAEBR00/OS01/n1342                     |       1|     308|     37.33%
+                                        |        |        |
+\RAEBR00/OS01/n1268                     |       1|     264|     32.00%
+                                        |        |        |
+\RAEBR00/OS01/n6                        |       3|     236|     28.61%
+                                        |        |        |
+\RAEBR00/OS01/n567                      |       1|     176|     21.33%
+                                        |        |        |
+\RAEBR00/OS01/n1218                     |       1|     176|     21.33%
+                                        |        |        |
+\RAEBR00/OS01/n1271                     |       1|     176|     21.33%
+                                        |        |        |
+\RAEBR00/OS01/n1256                     |       2|     156|     18.91%
+                                        |        |        |
+\RAEBR00/OS01/n21                       |       1|     132|     16.00%
+                                        |        |        |
+\RAEBR00/OS01/sdiv[19]                  |       8|     119|     14.42%
+                                        |        |        |
+\RAEBR00/OS01/sdiv[20]                  |       8|     119|     14.42%
+                                        |        |        |
+\RAEBR00/OS01/sdiv[21]                  |       9|     116|     14.06%
+                                        |        |        |
+\RAEBR00/OS01/n707                      |       2|     115|     13.94%
+                                        |        |        |
+\RAEBR00/OS01/n1125                     |       1|     110|     13.33%
+                                        |        |        |
+\RAEBR00/OS01/n1260                     |       2|      98|     11.88%
+                                        |        |        |
+\RAEBR00/OS01/n1259                     |       2|      96|     11.64%
+                                        |        |        |
+\RAEBR00/OS01/sdiv[18]                  |       6|      96|     11.64%
+                                        |        |        |
+\RAEBR00/OS01/sdiv[17]                  |       5|      95|     11.52%
+                                        |        |        |
+--------------------------------------------------------------------------------
+
+
+<A name="mtw1_ts"></A><B><U><big>Timing summary:</big></U></B>
+---------------
+
+Timing errors: 825  Score: 3214190
+
+Constraints cover  1150 paths, 111 nets, and 249 connections (64.3% coverage)
+
+
+Peak memory: 82948096 bytes, TRCE: 2330624 bytes, DLYMAN: 163840 bytes
+CPU_TIME_REPORT: 0 secs 
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

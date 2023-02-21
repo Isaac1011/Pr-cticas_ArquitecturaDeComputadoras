@@ -1,0 +1,22 @@
+#Start recording tcl command: 11/12/2022 17:59:56
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/10-shiftRL00; Project name: shiftRL00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/10-shiftRL00/shiftRL00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/10-shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_project close
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/10-shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/10-shiftRL00/shiftRL0/shiftRL0.xcf"
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/10-shiftRL00/shiftRL0/shiftRL0.xcf"
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/10-shiftRL00/shiftRL0/shiftRL0.xcf"
+prj_run Export -impl shiftRL0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/10-shiftRL00/shiftRL0/shiftRL0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 11/12/2022 19:08:24

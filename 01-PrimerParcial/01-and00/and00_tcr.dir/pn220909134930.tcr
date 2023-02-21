@@ -1,0 +1,6 @@
+#Start recording tcl command: 9/9/2022 13:49:03
+#Project Location: C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/01-and00; Project name: and00
+prj_project open "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/01-and00/and00.ldf"
+prj_project save
+prj_project close
+#Stop recording: 9/9/2022 13:49:30

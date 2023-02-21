@@ -1,0 +1,22 @@
+#Start recording tcl command: 1/13/2023 22:32:22
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00/ram00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00/ram0/ram0.xcf"
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00/ram0/ram0.xcf"
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00/ram0/ram0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 1/14/2023 01:28:29

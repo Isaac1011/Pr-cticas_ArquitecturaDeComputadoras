@@ -1,0 +1,17 @@
+#Start recording tcl command: 12/12/2022 19:47:03
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/02-key00; Project name: key00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/02-key00/key00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/02-key00/key0/key0.xcf"
+pgr_program run
+prj_run Export -impl key0 -task Jedecgen
+pgr_program run
+prj_run Export -impl key0 -task Jedecgen
+pgr_program run
+prj_run Export -impl key0 -task Jedecgen
+pgr_program run
+prj_run Export -impl key0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/02-key00/key0/key0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 12/12/2022 20:23:43

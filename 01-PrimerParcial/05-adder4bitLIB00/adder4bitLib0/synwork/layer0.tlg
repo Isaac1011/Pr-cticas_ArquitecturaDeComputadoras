@@ -1,0 +1,9 @@
+@N: CD630 :"C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\05-adder4bitLIB00\adder4bitLib00.vhdl":8:7:8:20|Synthesizing work.adder4bitlib00.adder4bitlib0.
+Post processing for work.adder4bitlib00.adder4bitlib0
+Running optimization stage 1 on adder4bitLib00 .......
+Running optimization stage 2 on adder4bitLib00 .......
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: C:\Users\sando_m929gqi\Desktop\ESCOM\7moSemestre\ArquitecturaDeComputadoras\PrimerParcial\Practicas\05-adder4bitLIB00\adder4bitLib0\synwork\layer0.rt.csv
+

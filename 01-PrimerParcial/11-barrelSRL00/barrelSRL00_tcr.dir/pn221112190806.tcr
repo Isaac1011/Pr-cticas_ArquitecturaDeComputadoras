@@ -1,0 +1,10 @@
+#Start recording tcl command: 11/12/2022 18:45:37
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00; Project name: barrelSRL00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL00.ldf"
+prj_run Export -impl barrelSRL0 -task Jedecgen
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/PrimerParcial/Practicas/11-barrelSRL00/barrelSRL0/barrelSRL0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 11/12/2022 19:08:06

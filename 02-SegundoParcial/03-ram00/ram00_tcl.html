@@ -1,0 +1,204 @@
+<HTML>
+<HEAD><TITLE>Lattice TCL Log</TITLE>
+<STYLE TYPE="text/css">
+<!--
+ body,pre{    font-family:'Courier New', monospace;    color: #000000;    font-size:88%;    background-color: #ffffff;}h1 {    font-weight: bold;    margin-top: 24px;    margin-bottom: 10px;    border-bottom: 3px solid #000;    font-size: 1em;}h2 {    font-weight: bold;    margin-top: 18px;    margin-bottom: 5px;    font-size: 0.90em;}h3 {    font-weight: bold;    margin-top: 12px;    margin-bottom: 5px;    font-size: 0.80em;}p {    font-size:78%;}P.Table {    margin-top: 4px;    margin-bottom: 4px;    margin-right: 4px;    margin-left: 4px;}table{    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    border-collapse: collapse;}th {    font-weight:bold;    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    text-align:left;    font-size:78%;}td {    padding: 4px;    border-width: 1px 1px 1px 1px;    border-style: solid solid solid solid;    border-color: black black black black;    vertical-align:top;    font-size:78%;}a {    color:#013C9A;    text-decoration:none;}a:visited {    color:#013C9A;}a:hover, a:active {    text-decoration:underline;    color:#5BAFD4;}.pass{background-color: #00ff00;}.fail{background-color: #ff0000;}.comment{    font-size: 90%;    font-style: italic;}
+-->
+</STYLE>
+</HEAD>
+<PRE><A name="pn220427190709"></A><B><U><big>pn220427190709</big></U></B>
+#Start recording tcl command: 4/26/2022 09:01:03
+#Project Location: C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00; Project name: ram00
+prj_project new -name "ram00" -impl "ram0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+file copy -force -- "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/02_osc00_VHDL/div00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/02_osc00_VHDL/osc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/02_osc00_VHDL/oscint00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/02_osc00_VHDL/packageOsc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0/source"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0/source/div00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0/source/osc00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0/source/oscint00.vhd" "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/ram0/source/packageOsc00.vhd"
+prj_project save
+pgr_project close
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/contring00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/coder00.vhdl"
+prj_src add "C:/Users/migue/OneDrive/Documentos/ADC/10-Tareas-Relacion-2doParcial/03-Practicas/03-ram00/memram00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 4/27/2022 19:07:09
+
+
+
+<A name="pn221225143224"></A><B><U><big>pn221225143224</big></U></B>
+#Start recording tcl command: 12/25/2022 14:32:22
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+prj_project close
+#Stop recording: 12/25/2022 14:32:25
+
+
+
+<A name="pn221225153646"></A><B><U><big>pn221225153646</big></U></B>
+#Start recording tcl command: 12/25/2022 14:32:45
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 12/25/2022 15:36:46
+
+
+
+<A name="pn221226142138"></A><B><U><big>pn221226142138</big></U></B>
+#Start recording tcl command: 12/26/2022 12:55:49
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 12/26/2022 14:21:38
+
+
+
+<A name="pn230106215231"></A><B><U><big>pn230106215231</big></U></B>
+#Start recording tcl command: 1/6/2023 20:08:18
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+pgr_project close
+pgr_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+prj_run Export -impl ram0 -task Jedecgen
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program set -cable 
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_project close
+prj_project save
+prj_project close
+#Stop recording: 1/6/2023 21:52:31
+
+
+
+<A name="pn230106215237"></A><B><U><big>pn230106215237</big></U></B>
+#Start recording tcl command: 1/6/2023 21:52:35
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+prj_project close
+#Stop recording: 1/6/2023 21:52:37
+
+
+
+<A name="pn230110230554"></A><B><U><big>pn230110230554</big></U></B>
+#Start recording tcl command: 1/10/2023 19:20:30
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+prj_project close
+#Stop recording: 1/10/2023 23:05:54
+
+
+
+<A name="pn230112225522"></A><B><U><big>pn230112225522</big></U></B>
+#Start recording tcl command: 1/12/2023 19:25:51
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+prj_project close
+#Stop recording: 1/12/2023 22:55:22
+
+
+
+<A name="pn230112235548"></A><B><U><big>pn230112235548</big></U></B>
+#Start recording tcl command: 1/12/2023 23:00:39
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+prj_project close
+#Stop recording: 1/12/2023 23:55:48
+
+
+
+<A name="pn230114012829"></A><B><U><big>pn230114012829</big></U></B>
+#Start recording tcl command: 1/13/2023 22:32:22
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00/ram00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00/ram0/ram0.xcf"
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00/ram0/ram0.xcf"
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+prj_run Export -impl ram0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/02-SegundoParcial/Practicas/03-ram00/ram0/ram0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 1/14/2023 01:28:29
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></FONT>
+</BODY>
+</HTML>

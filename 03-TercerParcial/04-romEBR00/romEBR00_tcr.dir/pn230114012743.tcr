@@ -1,0 +1,14 @@
+#Start recording tcl command: 1/14/2023 00:42:36
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/03-TercerParcial/Practicas/04-romEBR00; Project name: romEBR00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/03-TercerParcial/Practicas/04-romEBR00/romEBR00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/03-TercerParcial/Practicas/04-romEBR00/romEBR0/romEBR0.xcf"
+pgr_program run
+prj_run Export -impl romEBR0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/03-TercerParcial/Practicas/04-romEBR00/romEBR0/romEBR0.xcf"
+prj_run Export -impl romEBR0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/03-TercerParcial/Practicas/04-romEBR00/romEBR0/romEBR0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 1/14/2023 01:27:43

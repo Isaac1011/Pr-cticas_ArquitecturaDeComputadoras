@@ -1,0 +1,25 @@
+Running in Lattice mode
+
+Starting:    C:\lscc\diamond\3.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\diamond\3.12\synpbase
+Hostname:    SANDOVALCHICLES
+Date:        Thu Oct 20 20:03:53 2022
+Version:     Q-2020.03L-SP1
+
+Arguments:   -product synplify_pro -batch and00_and0_synplify.tcl
+ProductType: synplify_pro
+
+
+
+
+Copied C:\Users\OzkArItO\Desktop\ESCOM\7mo_Semestre\Arquitectura de computadoras\Practicas\01-projectDiamont-PrimerParcial\01-and00\and0\and00_and0.srr to C:\Users\OzkArItO\Desktop\ESCOM\7mo_Semestre\Arquitectura de computadoras\Practicas\01-projectDiamont-PrimerParcial\01-and00\and0\backup\and00_and0.srr
+Unable to write project file: "C:\Users\OzkArItO\Desktop\ESCOM\7mo_Semestre\Arquitectura de computadoras\Practicas\01-projectDiamont-PrimerParcial\01-and00\and0\run_options.txt"
+Error: At line 64 while processing "and00_and0_synplify.tcl"
+2
+TCL script complete: "and00_and0_synplify.tcl"
+TCL script had errors: "and00_and0_synplify.tcl"
+exit status=9
+exit status=9
+Save changes for project:
+C:\Users\OzkArItO\Desktop\ESCOM\7mo_Semestre\Arquitectura de computadoras\Practicas\01-projectDiamont-PrimerParcial\01-and00\and0\proj_1.prj
+batch mode default:no

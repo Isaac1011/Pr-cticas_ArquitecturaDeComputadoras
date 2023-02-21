@@ -1,0 +1,14 @@
+#Start recording tcl command: 10/23/2022 19:46:07
+#Project Location: C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/03-adder4bit; Project name: adder4bit00
+prj_project open "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/03-adder4bit/adder4bit00.ldf"
+prj_run Export -impl adder4bit0 -task Jedecgen
+pgr_project open "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/03-adder4bit/adder4bit0/adder4bit0.xcf"
+pgr_program set -cable 
+pgr_program set -cable USB
+pgr_program set -port EzUSB-0
+pgr_program set -cable USB2
+pgr_program set -port FTUSB-0
+pgr_program run
+pgr_project save "C:/Users/isaac/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/1erParcial/01-projectDiamond-PrimerParcial/03-adder4bit/adder4bit0/adder4bit0.xcf"
+prj_project close
+#Stop recording: 10/23/2022 20:12:01

@@ -1,0 +1,10 @@
+#Start recording tcl command: 1/13/2023 23:52:16
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/X/Arqui_practicas-main/Arqui_practicas-main/03-TercerParcial/02-ramEBR00; Project name: ramEBR00
+prj_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/X/Arqui_practicas-main/Arqui_practicas-main/03-TercerParcial/02-ramEBR00/ramEBR00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/X/Arqui_practicas-main/Arqui_practicas-main/03-TercerParcial/02-ramEBR00/ramEBR0/ramEBR0.xcf"
+prj_run Export -impl ramEBR0 -task Jedecgen
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/X/Arqui_practicas-main/Arqui_practicas-main/03-TercerParcial/02-ramEBR00/ramEBR0/ramEBR0.xcf"
+prj_project save
+prj_project close
+#Stop recording: 1/14/2023 00:01:29

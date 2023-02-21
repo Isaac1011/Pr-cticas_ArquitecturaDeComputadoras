@@ -1,0 +1,9 @@
+#Start recording tcl command: 9/3/2022 20:51:44
+#Project Location: C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/01-and00; Project name: and00
+prj_project new -name "and00" -impl "and0" -dev LCMXO2-7000HE-5TG144C -synthesis "synplify"
+prj_project save
+prj_src add "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/01-and00/and00.vhdl"
+prj_src add -exclude "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/01-and00/and0/and0.xcf"
+prj_src enable "C:/Users/Isaac/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/01-projectDiamont-PrimerParcial/01-and00/and0/and0.xcf"
+pgr_project close
+#Stop recording: 9/3/2022 23:55:09

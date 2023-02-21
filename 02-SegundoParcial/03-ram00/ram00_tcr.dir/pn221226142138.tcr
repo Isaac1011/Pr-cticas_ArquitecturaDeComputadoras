@@ -1,0 +1,9 @@
+#Start recording tcl command: 12/26/2022 12:55:49
+#Project Location: C:/Users/sando_m929gqi/Desktop/X/P/03-ram00; Project name: ram00
+prj_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram00.ldf"
+pgr_project open "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_program run
+pgr_project save "C:/Users/sando_m929gqi/Desktop/X/P/03-ram00/ram0/ram0.xcf"
+pgr_project close
+prj_project close
+#Stop recording: 12/26/2022 14:21:38

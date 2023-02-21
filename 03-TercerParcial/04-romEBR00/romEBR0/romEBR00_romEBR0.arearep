@@ -1,0 +1,70 @@
+----------------------------------------------------------------------
+Report for cell ramEBR00.TECH
+Register bits:  29 of 7209 (0.402%)
+I/O cells:      41
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        16          100.0
+                              DP8KC         2          100.0
+                            FD1P3AX         1          100.0
+                            FD1P3IX        28          100.0
+                                GSR         1          100.0
+                                 IB         8          100.0
+                            L6MUX21         1          100.0
+                               LUT4        42          100.0
+                                 OB        33          100.0
+                              PFUMX         6          100.0
+SUB MODULES
+                         contRead00         1
+                              div00         1
+                              osc00         1
+                           oscint00         1
+                         rom_EBR_00         1
+                              TOTAL       143
+----------------------------------------------------------------------
+Report for cell contRead00.v1
+Instance Path : RAEBR01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D         4           25.0
+                            FD1P3IX         6           21.4
+                               LUT4         3            7.1
+                              TOTAL        13
+----------------------------------------------------------------------
+Report for cell rom_EBR_00.v1
+Instance Path : RAEBR02
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              DP8KC         2          100.0
+                              TOTAL         2
+----------------------------------------------------------------------
+Report for cell osc00.v1
+Instance Path : RAEBR00
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        12           75.0
+                            FD1P3AX         1          100.0
+                            FD1P3IX        22           78.6
+                            L6MUX21         1          100.0
+                               LUT4        39           92.9
+                              PFUMX         6          100.0
+SUB MODULES
+                              div00         1
+                           oscint00         1
+                              TOTAL        83
+----------------------------------------------------------------------
+Report for cell div00.v1
+Instance Path : RAEBR00.OS01
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                              CCU2D        12           75.0
+                            FD1P3AX         1          100.0
+                            FD1P3IX        22           78.6
+                            L6MUX21         1          100.0
+                               LUT4        39           92.9
+                              PFUMX         6          100.0
+                              TOTAL        81
+----------------------------------------------------------------------
+Report for cell oscint00.v1
+Instance Path : RAEBR00.OS00
+                              TOTAL         0

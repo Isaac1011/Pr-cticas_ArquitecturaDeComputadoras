@@ -1,0 +1,15 @@
+i BSRL00.OS01.oscout_i
+m 0 0
+u 2 12
+n ckid0_0 {t:BSRL01.scontrol[3:0].C} Derived clock on input (not legal for GCC)
+p {t:BSRL00.OS01.oscout.Q[0]}{t:BSRL00.OS01.oscout_derived_clock.I[0]}{t:BSRL00.OS01.oscout_derived_clock.OUT[0]}{p:BSRL00.OS01.oscout}{t:BSRL00.OS01.oscout}{p:BSRL00.oscout0}{t:BSRL00.oscout0}{t:BSRL01.clks}{p:BSRL01.clks}{t:BSRL01.scontrol[3:0].C}
+e ckid0_0 {t:BSRL01.scontrol[3:0].C} sdffr
+d ckid0_1 {t:BSRL00.OS01.oscout.Q[0]} dffe Potential generated clock but with a nonconvertable driver or an unknown conversion method
+i BSRL00.OS00.osc_int0_i
+m 0 0
+u 2 23
+p {t:BSRL00.OS00.OSCInst0.OSC}{t:BSRL00.OS00.osc_int0_inferred_clock.I[0]}{t:BSRL00.OS00.osc_int0_inferred_clock.OUT[0]}{p:BSRL00.OS00.osc_int0}{t:BSRL00.OS00.osc_int0}{t:BSRL00.OS01.clkdiv}{p:BSRL00.OS01.clkdiv}{t:BSRL00.OS01.sdiv[21:0].C}
+e ckid0_2 {t:BSRL00.OS01.sdiv[21:0].C} sdffr
+c ckid0_2 {t:BSRL00.OS00.OSCInst0.OSC} OSCH Unsupported/too complex instance on clock path
+l 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

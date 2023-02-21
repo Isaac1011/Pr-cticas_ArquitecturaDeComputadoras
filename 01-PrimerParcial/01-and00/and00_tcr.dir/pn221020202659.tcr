@@ -1,0 +1,10 @@
+#Start recording tcl command: 10/20/2022 20:15:19
+#Project Location: C:/Users/OzkArItO/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/Practicas/01-projectDiamont-PrimerParcial/01-and00; Project name: and00
+prj_project open "C:/Users/OzkArItO/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/Practicas/01-projectDiamont-PrimerParcial/01-and00/and00.ldf"
+pgr_project open "C:/Users/OzkArItO/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/Practicas/01-projectDiamont-PrimerParcial/01-and00/and0/and0.xcf"
+pgr_program run
+pgr_project close
+pgr_project open "C:/Users/OzkArItO/Desktop/ESCOM/7mo_Semestre/ArquitecturaDeComputadoras/Practicas/01-projectDiamont-PrimerParcial/01-and00/and0/and0.xcf"
+pgr_program run
+prj_project close
+#Stop recording: 10/20/2022 20:26:59

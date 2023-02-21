@@ -1,0 +1,12 @@
+#Start recording tcl command: 11/26/2022 22:17:41
+#Project Location: C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/01-word00; Project name: word00
+prj_project new -name "word00" -impl "word0" -dev LCMXO2-7000HE-4TG144C -synthesis "synplify"
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/00-os00-vhdl/div00.vhdl" "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/00-os00-vhdl/osc00.vhdl" "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/00-os00-vhdl/oscint00.vhdl" "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/00-os00-vhdl/packageosc00.vhdl"
+prj_project save
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/01-word00/contring00.vhdl"
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/01-word00/coder00.vhdl"
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/01-word00/packageword00.vhdl"
+prj_src add "C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/SegundoParcial/Practicas/01-word00/word00.vhdl"
+prj_project save
+prj_project close
+#Stop recording: 11/26/2022 22:54:24

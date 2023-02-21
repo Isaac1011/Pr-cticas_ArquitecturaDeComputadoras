@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Map">
+        <Message>
+            <ID>51001102</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>Q0[31]</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001102</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>Q0[29]</Dynamic>
+        </Message>
+        <Message>
+            <ID>51001102</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>0</Dynamic>
+            <Dynamic>Q0[30]</Dynamic>
+        </Message>
+        <Message>
+            <ID>1103694</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;Q0[31]&quot; SITE &quot;0&quot; ;&quot;: </Dynamic>
+            <Dynamic>0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1103694</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;Q0[29]&quot; SITE &quot;0&quot; ;&quot;: </Dynamic>
+            <Dynamic>0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1103694</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>Semantic error in &quot;LOCATE COMP &quot;Q0[30]&quot; SITE &quot;0&quot; ;&quot;: </Dynamic>
+            <Dynamic>0</Dynamic>
+        </Message>
+        <Message>
+            <ID>1103805</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>In &quot;LOCATE COMP &quot;Q0[17]&quot; SITE &quot;130&quot; ;&quot;: </Dynamic>
+            <Dynamic>130</Dynamic>
+        </Message>
+        <Message>
+            <ID>1103805</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>In &quot;LOCATE COMP &quot;Q0[18]&quot; SITE &quot;131&quot; ;&quot;: </Dynamic>
+            <Dynamic>131</Dynamic>
+        </Message>
+        <Message>
+            <ID>1103805</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>In &quot;LOCATE COMP &quot;Q0[21]&quot; SITE &quot;136&quot; ;&quot;: </Dynamic>
+            <Dynamic>136</Dynamic>
+        </Message>
+        <Message>
+            <ID>1103805</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>In &quot;LOCATE COMP &quot;Q0[22]&quot; SITE &quot;137&quot; ;&quot;: </Dynamic>
+            <Dynamic>137</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Lattice_Synthesis">
+        <Message>
+            <ID>35002000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35001781</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>35921504</ID>
+            <Severity>Info</Severity>
+            <Dynamic></Dynamic>
+            <Dynamic>C:/Users/sando_m929gqi/Desktop/ESCOM/7moSemestre/ArquitecturaDeComputadoras/03-TercerParcial/Practicas/04-romEBR00/romEBR0</Dynamic>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/div00.vhdl(8): </Dynamic>
+            <Dynamic>div00</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/div00.vhdl</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/div00.vhdl(15): </Dynamic>
+            <Dynamic>div0</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/div00.vhdl</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/oscint00.vhdl(6): </Dynamic>
+            <Dynamic>oscint00</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/oscint00.vhdl</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/oscint00.vhdl(10): </Dynamic>
+            <Dynamic>oscint0</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/oscint00.vhdl</Navigation>
+            <Navigation>10</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/packageosc00.vhdl(6): </Dynamic>
+            <Dynamic>packageosc00</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/packageosc00.vhdl</Navigation>
+            <Navigation>6</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/osc00.vhdl(7): </Dynamic>
+            <Dynamic>osc00</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/osc00.vhdl</Navigation>
+            <Navigation>7</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/osc00.vhdl(14): </Dynamic>
+            <Dynamic>osc0</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/osc00.vhdl</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/contread00.vhdl(8): </Dynamic>
+            <Dynamic>contread00</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/contread00.vhdl</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/contread00.vhdl(15): </Dynamic>
+            <Dynamic>contread0</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/contread00.vhdl</Navigation>
+            <Navigation>15</Navigation>
+        </Message>
+        <Message>
+            <ID>35921014</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/packageromebr00.vhdl(8): </Dynamic>
+            <Dynamic>packageramebr00</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/packageromebr00.vhdl</Navigation>
+            <Navigation>8</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/romebr00.vhdl(9): </Dynamic>
+            <Dynamic>ramebr00</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/romebr00.vhdl</Navigation>
+            <Navigation>9</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/romebr00.vhdl(20): </Dynamic>
+            <Dynamic>ramebr0</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/romebr00.vhdl</Navigation>
+            <Navigation>20</Navigation>
+        </Message>
+        <Message>
+            <ID>35921012</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/rom_ebr_00.vhd(14): </Dynamic>
+            <Dynamic>rom_ebr_00</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/rom_ebr_00.vhd</Navigation>
+            <Navigation>14</Navigation>
+        </Message>
+        <Message>
+            <ID>35921010</ID>
+            <Severity>Info</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/rom_ebr_00.vhd(23): </Dynamic>
+            <Dynamic>structure</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/rom_ebr_00.vhd</Navigation>
+            <Navigation>23</Navigation>
+        </Message>
+        <Message>
+            <ID>35921205</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/romebr00.vhdl(18): </Dynamic>
+            <Dynamic>ramEBR00</Dynamic>
+            <Dynamic>ramEBR0</Dynamic>
+            <Navigation>c:/users/sando_m929gqi/desktop/escom/7mosemestre/arquitecturadecomputadoras/03-tercerparcial/practicas/04-romebr00/romebr00.vhdl</Navigation>
+            <Navigation>18</Navigation>
+        </Message>
+        <Message>
+            <ID>35001611</ID>
+            <Severity>Warning</Severity>
+        </Message>
+    </Task>
+    <Task name="PAR">
+        <Message>
+            <ID>61061008</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>en0_c</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+            <Dynamic>en0</Dynamic>
+            <Dynamic>47</Dynamic>
+            <Dynamic>Secondary</Dynamic>
+        </Message>
+    </Task>
+</BaliMessageLog>

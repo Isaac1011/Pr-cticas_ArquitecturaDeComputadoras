@@ -1,0 +1,83 @@
+----------------------------------------------------------------------
+Report for cell barrelSRL00.barrelsrl0
+
+Register bits: 35 of 6864 (1%)
+PIC Latch:       0
+I/O cells:       30
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       15       100.0
+                            FD1P3AX        8       100.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       26       100.0
+                                GSR        1       100.0
+                                 IB       21       100.0
+                                 OB        9       100.0
+                           ORCALUT4       56       100.0
+                               OSCH        1       100.0
+                              PFUMX        2       100.0
+                                PUR        1       100.0
+                                VHI        3       100.0
+                                VLO        4       100.0
+SUB MODULES 
+                           barrel00        1       100.0
+                              div00        1       100.0
+                              osc00        1       100.0
+                           oscint00        1       100.0
+                            
+                         TOTAL           152           
+----------------------------------------------------------------------
+Report for cell barrel00.netlist
+     Instance path:  BSRL01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D        3        20.0
+                            FD1P3AX        8       100.0
+                            FD1S3IX        4        15.4
+                           ORCALUT4       23        41.1
+                              PFUMX        1        50.0
+                                VHI        1        33.3
+                                VLO        1        25.0
+                            
+                         TOTAL            41           
+----------------------------------------------------------------------
+Report for cell osc00.netlist
+     Instance path:  BSRL00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12        80.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       22        84.6
+                           ORCALUT4       33        58.9
+                               OSCH        1       100.0
+                              PFUMX        1        50.0
+                                VHI        1        33.3
+                                VLO        2        50.0
+SUB MODULES 
+                              div00        1       100.0
+                           oscint00        1       100.0
+                            
+                         TOTAL            75           
+----------------------------------------------------------------------
+Report for cell div00.netlist
+     Instance path:  BSRL00.OS01
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2D       12        80.0
+                            FD1S3AX        1       100.0
+                            FD1S3IX       22        84.6
+                           ORCALUT4       33        58.9
+                              PFUMX        1        50.0
+                                VHI        1        33.3
+                                VLO        1        25.0
+                            
+                         TOTAL            71           
+----------------------------------------------------------------------
+Report for cell oscint00.netlist
+     Instance path:  BSRL00.OS00
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               OSCH        1       100.0
+                                VLO        1        25.0
+                            
+                         TOTAL             2           
